@@ -78,3 +78,7 @@ EXAMPLES:
 	docker-wrapper wrapper --help
 
 ```
+
+### TODO before v1.0.0 release
+- [ ] Cross-platform compilation for linux and windows OS
+- [ ] Create bash completions
