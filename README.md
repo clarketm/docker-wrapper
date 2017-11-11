@@ -79,6 +79,6 @@ EXAMPLES:
 
 ```
 
-### TODO before v1.0.0 release
+### TODO (before official v1.0.0 release):
 - [ ] Cross-platform compilation for linux and windows OS
 - [ ] Create bash completions
