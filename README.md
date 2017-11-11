@@ -1,10 +1,9 @@
 # docker-wrapper
 Docker command wrapper.
 
-> The `docker-wrapper` is a superset of the `docker` command. It is a simple command wrapper that shims the native `docker` with useful aliases and helpers to enhance your docker workflow. This may go without saying, but `docker` is a required dependency for `docker-wrapper`.
+> The `docker-wrapper` command is a **complete** superset of the `docker` command. It is a wrapper that shims the native `docker` command with useful aliases and helpers to enhance your docker workflow. This may go without saying, but `docker` is a required dependency for `docker-wrapper`.
 
 ### Installation
-#### Source
 ```bash
 $ git clone "https://github.com/clarketm/docker-wrapper.git"
 
