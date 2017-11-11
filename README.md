@@ -13,7 +13,9 @@ $ cd docker-wrapper && sh install.sh
 ### Usage
 ```bash
 $ docker-wrapper wrapper --help
+```
 
+```text
 NAME:
 	docker-wrapper – docker command wrapper.
 
