@@ -80,5 +80,5 @@ EXAMPLES:
 ```
 
 ### TODO (before official v1.0.0 release):
-- [ ] Cross-platform compilation for linux and windows OS
+- [ ] Cross-platform compilation for Linux and Windows OS
 - [ ] Create bash completions
