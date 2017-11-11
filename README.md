@@ -27,36 +27,36 @@ SUB COMMANDS:
 	b, build                    	 Build an image from a Dockerfile.
 
 	e, exec                     	 Run a command in a running container.
-			-b, --bash              	 Execute bash in a running container.
-			-i, --interactive       	 Execute command in interactive container.
+	    -b, --bash              	 Execute bash in a running container.
+	    -i, --interactive       	 Execute command in interactive container.
 
 	i, images                   	 List images.
-			-d, --dangling          	 List all dangling images.
-			-v, --verbose           	 List all images (non-truncated output).
+	    -d, --dangling          	 List all dangling images.
+	    -v, --verbose           	 List all images (non-truncated output).
 
 	ip                          	 List IP address(es) for container.
 
 	p, ps                       	 List containers.
 
 	rm                          	 Remove one or more containers.
-			-a, --all               	 Remove all containers.
-			-e, --exited            	 Remove all exited containers.
-			-r, --running           	 Remove all running containers.
+	    -a, --all               	 Remove all containers.
+	    -e, --exited            	 Remove all exited containers.
+	    -r, --running           	 Remove all running containers.
 
 	rmi                         	 Remove one or more images.
-			-a, --all               	 Remove all base images.
-			-d, --dangling          	 Remove all dangling images.
-			-i, --intermediate      	 Remove all images (both base AND intermediate).
+	    -a, --all               	 Remove all base images.
+	    -d, --dangling          	 Remove all dangling images.
+	    -i, --intermediate      	 Remove all images (both base AND intermediate).
 
 	r, run                      	 Run a command in a new container.
-			-i, --interactive       	 Run interactive container.
+	    -i, --interactive       	 Run interactive container.
 
 	s, stop                     	 Stop one or more running containers.
-			-a, --all               	 Stop all processes/containers.
+	    -a, --all               	 Stop all processes/containers.
 
 	w, wrapper                  	 Docker wrapper specific options.
-			-h, --help              	 Print usage information.
-			-v, --version           	 Print version number.
+	    -h, --help              	 Print usage information.
+	    -v, --version           	 Print version number.
 
 
 MANAGEMENT COMMANDS:
@@ -65,11 +65,11 @@ MANAGEMENT COMMANDS:
 
 	v, volume                   	 Manage volumes.
 
-			ls                      	 List volumes.
-				-d, --dangling        	 List all dangling volumes.
+	    ls                      	 List volumes.
+	        -d, --dangling        	 List all dangling volumes.
 
-			rm                      	 Remove one or more volumes.
-				-d, --dangling        	 Remove all dangling volumes.
+	    rm                      	 Remove one or more volumes.
+		-d, --dangling        	 Remove all dangling volumes.
 
 
 EXAMPLES:
