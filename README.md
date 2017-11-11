@@ -81,4 +81,4 @@ EXAMPLES:
 
 ### TODO (before official v1.0.0 release):
 - [ ] Cross-platform compilation for Linux and Windows OS
-- [ ] Create bash completions
+- [ ] Add completions
