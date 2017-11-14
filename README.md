@@ -40,6 +40,13 @@ SUB COMMANDS:
 
 	p, ps                       	 List containers.
 
+  prune                       	 Remove unused resources.
+			-a, --all               	 Remove all unused resources (containers, images, networks, volumes).
+			c, containers           	 Remove all unused containers.
+			i, images               	 Remove all unused images.
+			n, networks             	 Remove all unused networks.
+			v, volumes              	 Remove all unused volumes.
+
 	rm                          	 Remove one or more containers.
 	    -a, --all               	 Remove all containers.
 	    -e, --exited            	 Remove all exited containers.
@@ -59,6 +66,7 @@ SUB COMMANDS:
 	w, wrapper                  	 Docker wrapper specific options.
 	    -h, --help              	 Print usage information.
 	    -v, --version           	 Print version number.
+      cs, cheatsheet          	 Print docker command reference guide.
 
 
 MANAGEMENT COMMANDS:
