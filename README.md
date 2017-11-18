@@ -71,15 +71,27 @@ SUB COMMANDS:
 
 MANAGEMENT COMMANDS:
 
-	n, network                  	 Manage networks.
+	cnf, conf, cnfg, config     	 Manage containers.
+
+	c, container                	 Manage containers.
+
+	i, image                    	 Manage images.
+
+	n, net, network             	 Manage networks.
+
+	no, node                    	 Manage Swarm node.
+
+	se, svc, service            	 Manage services.
+
+	st, stack                   	 Manage Docker stacks.
+
+	sw, swarm                   	 Manage Swarm.
 
 	v, volume                   	 Manage volumes.
-
 	    ls                      	 List volumes.
-	        -d, --dangling        	 List all dangling volumes.
-
+			    -d, --dangling         List all dangling volumes.
 	    rm                      	 Remove one or more volumes.
-		-d, --dangling        	 Remove all dangling volumes.
+			    -d, --dangling         Remove all dangling volumes.
 
 
 EXAMPLES:
