@@ -87,11 +87,11 @@ MANAGEMENT COMMANDS:
 
 	sw, swarm                   	 Manage Swarm.
 
-	v, volume                   	 Manage volumes.
+	v, volume			 Manage volumes.
 	    ls                      	 List volumes.
-			    -d, --dangling         List all dangling volumes.
+	        -d, --dangling		 List all dangling volumes.
 	    rm                      	 Remove one or more volumes.
-			    -d, --dangling         Remove all dangling volumes.
+		-d, --dangling		 Remove all dangling volumes.
 
 
 EXAMPLES:
