@@ -20,82 +20,84 @@ NAME:
 	docker-wrapper – docker command wrapper.
 
 
-SYNOPSIS:
-	docker-wrapper subcommand [opts...]
+	SYNOPSIS:
+	        docker-wrapper subcommand [opts...]
 
 
-SUB COMMANDS:
+	SUB COMMANDS:
 
-	b, build                    	 Build an image from a Dockerfile.
+	        b, build                    	 Build an image from a Dockerfile.
 
-	e, exec                     	 Run a command in a running container.
-	    -b, --bash              	 Execute bash in a running container.
-	    -i, --interactive       	 Execute command in interactive container.
+	        e, exec                     	 Run a command in a running container.
+	            -b, --bash              	 Execute bash in a running container.
+	            -i, --interactive       	 Execute command in interactive container.
 
-	i, images                   	 List images.
-	    -d, --dangling          	 List all dangling images.
-	    -v, --verbose           	 List all images (non-truncated output).
+	        g, go                       	 Navigate to a docker internal storage dicetory (Linux ONLY).
 
-	ip                          	 List IP address(es) for container.
+	        is, images                  	 List images.
+	            -d, --dangling          	 List all dangling images.
+	            -v, --verbose           	 List all images (non-truncated output).
 
-	p, ps                       	 List containers.
+	        ip                          	 List IP address(es) for container.
 
-  	prune                       	 Remove unused resources.
-	    -a, --all               	 Remove all unused resources (containers, images, networks, volumes).
-	    c, containers           	 Remove all unused containers.
-	    i, images               	 Remove all unused images.
-	    n, networks             	 Remove all unused networks.
-	    v, volumes              	 Remove all unused volumes.
+	        p, ps                       	 List containers.
 
-	rm                          	 Remove one or more containers.
-	    -a, --all               	 Remove all containers.
-	    -e, --exited            	 Remove all exited containers.
-	    -r, --running           	 Remove all running containers.
+	        prune                       	 Remove unused resources.
+	            -a, --all               	 Remove all unused resources (containers, images, networks, volumes).
+	            c, containers           	 Remove all unused containers.
+	            i, images               	 Remove all unused images.
+	            n, networks             	 Remove all unused networks.
+	            v, volumes              	 Remove all unused volumes.
 
-	rmi                         	 Remove one or more images.
-	    -a, --all               	 Remove all base images.
-	    -d, --dangling          	 Remove all dangling images.
-	    -i, --intermediate      	 Remove all images (both base AND intermediate).
+	        rm                          	 Remove one or more containers.
+	            -a, --all               	 Remove all containers.
+	            -e, --exited            	 Remove all exited containers.
+	            -r, --running           	 Remove all running containers.
 
-	r, run                      	 Run a command in a new container.
-	    -i, --interactive       	 Run interactive container.
+	        rmi                         	 Remove one or more images.
+	            -a, --all               	 Remove all base images.
+	            -d, --dangling          	 Remove all dangling images.
+	            -i, --intermediate      	 Remove all images (both base AND intermediate).
 
-	s, stop                     	 Stop one or more running containers.
-	    -a, --all               	 Stop all processes/containers.
+	        r, run                      	 Run a command in a new container.
+	            -i, --interactive       	 Run interactive container.
 
-	w, wrapper                  	 Docker wrapper specific options.
-	    -h, --help              	 Print usage information.
-	    -v, --version           	 Print version number.
-	    cs, cheatsheet          	 Print docker command reference guide.
+	        s, stop                     	 Stop one or more running containers.
+	            -a, --all               	 Stop all processes/containers.
 
-
-MANAGEMENT COMMANDS:
-
-	cnf, conf, cnfg, config     	 Manage containers.
-
-	c, container                	 Manage containers.
-
-	i, image                    	 Manage images.
-
-	n, net, network             	 Manage networks.
-
-	no, node                    	 Manage Swarm node.
-
-	se, svc, service            	 Manage services.
-
-	st, stack                   	 Manage Docker stacks.
-
-	sw, swarm                   	 Manage Swarm.
-
-	v, volume			 Manage volumes.
-	    ls                      	 List volumes.
-	        -d, --dangling		 List all dangling volumes.
-	    rm                      	 Remove one or more volumes.
-		-d, --dangling		 Remove all dangling volumes.
+	        w, wrapper                  	 Docker wrapper specific options.
+	            -h, --help              	 Print usage information.
+	            -v, --version           	 Print version number.
+	            cs, cheatsheet          	 Print docker command reference guide.
 
 
-EXAMPLES:
-	docker-wrapper wrapper --help
+	MANAGEMENT COMMANDS:
+
+	        cnf, conf, cnfg, config     	 Manage containers.
+
+	        c, container                	 Manage containers.
+
+	        i, image                    	 Manage images.
+
+	        n, net, network             	 Manage networks.
+
+	        no, node                    	 Manage Swarm node.
+
+	        se, svc, service            	 Manage services.
+
+	        st, stack                   	 Manage Docker stacks.
+
+	        sw, swarm                   	 Manage Swarm.
+
+	        v, vol, volume              	 Manage volumes.
+	            ls                      	 List volumes.
+	              -d, --dangling        	 List all dangling volumes.
+	            rm                      	 Remove one or more volumes.
+	              -d, --dangling        	 Remove all dangling volumes.
+
+
+	EXAMPLES:
+	        docker-wrapper wrapper --help
 
 ```
 
