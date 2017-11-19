@@ -7,8 +7,9 @@ BIN_DIR="/usr/local/bin"
 SCRIPT='docker-wrapper'
 
 DARWIN='darwin'
-# LINUX='linux'
-X86_64='x86_64'
+LINUX='linux'
+
+ARCH_64='amd64'
 
 BUILD_DIR=
 
@@ -17,9 +18,9 @@ case "$OS" in
   [Dd]arwin*)
     BUILD_DIR="$DARWIN"
   ;;
-  # [Ll]inux*)
-  #   BUILD_DIR="$LINUX"
-  # ;;
+  [Ll]inux*)
+    BUILD_DIR="$LINUX"
+  ;;
   *)
     echo "unknown operating system: $OS" >&2
     exit 1
@@ -30,7 +31,7 @@ echo "$OS operating system detected"
 # Check machine architecture
 case "$ARCH" in
   [Xx]86*|[Xx]86[-_]64*)
-    BUILD_DIR="$BUILD_DIR-$X86_64"
+    BUILD_DIR="$BUILD_DIR-$ARCH_64"
   ;;
   *)
     echo "unknown machine architecture: $ARCH" >&2
