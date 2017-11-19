@@ -1,3 +1,0 @@
-[submodule "golang"]
-	path = golang
-	url = https://github.com/clarketm/go-bash-wrapper-docker-wrapper
