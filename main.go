@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
+	"path/filepath"
+	"runtime"
 )
 
 func main() {
-	script, _ := exec.Command("command", "-v", "docker-wrapper").Output()
-	scriptPath := string(script[:len(script)-1])
-	// scriptPath := "./docker-wrapper"
-	// scriptPath := strings.Trim(string(script), "\n")
+	_, callPath, _, _ := runtime.Caller(0)
+	scriptPath := fmt.Sprintf("%s/%s-%s/docker-wrapper", filepath.Dir(callPath), runtime.GOOS, runtime.GOARCH)
 	cmd := exec.Command(scriptPath, os.Args[1:]...)
 	stdout, _ := cmd.StdoutPipe()
 	stderr, _ := cmd.StderrPipe()
