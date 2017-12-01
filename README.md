@@ -1,4 +1,4 @@
-# docker-wrapper
+# [docker-wrapper](https://godoc.org/github.com/clarketm/docker-wrapper)
 Docker command wrapper.
 
 > The `docker-wrapper` command is a **complete** superset of the `docker` command. It is a wrapper that shims the native `docker` command with useful aliases and helpers to enhance your docker workflow. This may go without saying, but `docker` is a required dependency for `docker-wrapper`.
