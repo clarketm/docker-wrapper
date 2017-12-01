@@ -32,10 +32,11 @@ SUB COMMANDS:
         e, exec                     	 Run a command in a running container.
             -b, --bash              	 Execute bash in a running container.
             -i, --interactive       	 Execute command in interactive container.
+            -s, --shell             	 Execute sh in a running container.
 
         g, go                       	 Navigate to a docker internal storage dicetory (Linux ONLY).
 
-        is, images                  	 List images.
+        i, images                   	 List images.
             -d, --dangling          	 List all dangling images.
             -v, --verbose           	 List all images (non-truncated output).
 
@@ -78,7 +79,7 @@ MANAGEMENT COMMANDS:
 
         c, container                	 Manage containers.
 
-        i, image                    	 Manage images.
+        im, img, image              	 Manage images.
 
         n, net, network             	 Manage networks.
 
