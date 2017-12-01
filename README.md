@@ -3,10 +3,16 @@ Docker command wrapper.
 
 > The `docker-wrapper` command is a **complete** superset of the `docker` command. It is a wrapper that shims the native `docker` command with useful aliases and helpers to enhance your docker workflow. This may go without saying, but `docker` is a required dependency for `docker-wrapper`.
 
-### Installation
-```bash
-$ git clone "https://github.com/clarketm/docker-wrapper.git"
+## Installation
 
+#### Golang
+```shell
+$ go get -u github.com/clarketm/docker-wrapper
+```
+
+#### Install script
+```shell
+$ git clone "https://github.com/clarketm/docker-wrapper.git"
 $ cd docker-wrapper && sh install.sh
 ```
 
@@ -104,5 +110,5 @@ EXAMPLES:
 ```
 
 ### TODO (before official v1.0.0 release):
-- [ ] Cross-platform compilation for Linux OS
+- [x] Cross-platform compilation for Darwin and Linux
 - [ ] Add completions
