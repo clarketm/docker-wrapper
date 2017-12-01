@@ -16,7 +16,7 @@ $ git clone "https://github.com/clarketm/docker-wrapper.git"
 $ cd docker-wrapper && sh install.sh
 ```
 
-### Usage
+## Usage
 ```bash
 $ docker-wrapper wrapper --help
 ```
@@ -109,6 +109,6 @@ EXAMPLES:
 
 ```
 
-### TODO (before official v1.0.0 release):
+## TODO (before official v1.0.0 release):
 - [x] Cross-platform compilation for Darwin and Linux
 - [ ] Add completions
