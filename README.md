@@ -13,7 +13,7 @@ $ go get -u github.com/clarketm/docker-wrapper
 #### Install script
 ```shell
 $ git clone "https://github.com/clarketm/docker-wrapper.git"
-$ cd docker-wrapper && sh install.sh
+$ cd docker-wrapper && sudo sh install.sh
 ```
 
 ## Usage
