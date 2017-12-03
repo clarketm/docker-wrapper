@@ -43,12 +43,14 @@ echo "$ARCH machine architecture detected"
 # Make directory (if doesn't exist)
 if [ ! -d "$BIN_DIR" ]; then
   echo "creating directory $BIN_DIR"
-  sudo mkdir -p "$BIN_DIR"
+  # sudo mkdir -p "$BIN_DIR"
+  sudo install -d "$BIN_DIR"
 fi
 
 copy_script () {
   echo "copying $BUILD_DIR/$SCRIPT to $BIN_DIR"
-  sudo cp -f "$BUILD_DIR/$SCRIPT" "$BIN_DIR"
+  # sudo cp -f "$BUILD_DIR/$SCRIPT" "$BIN_DIR"
+  sudo install -m 755 "$BUILD_DIR/$SCRIPT" "$BIN_DIR"
 }
 
 # Copy script
