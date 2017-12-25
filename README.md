@@ -109,6 +109,6 @@ EXAMPLES:
 
 ```
 
-## TODO (before official v1.0.0 release):
+## TODO (before v1.0.0 release):
 - [x] Cross-platform compilation for Darwin and Linux
 - [ ] Add completions
